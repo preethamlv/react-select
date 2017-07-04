@@ -223,7 +223,6 @@ function shouldKeyDownEventCreateNewOption ({ keyCode }) {
 	switch (keyCode) {
 		case 9:   // TAB
 		case 13:  // ENTER
-		case 188: // COMMA
 			return true;
 	}
 
